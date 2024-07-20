@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1dd07f1e3699b40883b04b15f80c5a, type: 3}
+  m_Name: GridData
+  m_EditorClassIdentifier: 
+  RowSize: 6
+  ColumnSize: 5
+  ElementSizeX: 100
+  ElementSizeY: 100
+  ElementSpacingX: 5
+  ElementSpacingY: 5
+  TileElementPrefab: {fileID: 4541870398687992892, guid: c269a0ea2e3a1a644923dfa70ea47d1a, type: 3}
+  ColorVariety: 6
+  MatchSize: 2
+  CountToGenerateRocket: 4
+  CountToGenerateBomb: 5

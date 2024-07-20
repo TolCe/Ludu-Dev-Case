@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52e983a2409d42541b2da4d1cb632d81, type: 3}
+  m_Name: BlockDataContainer
+  m_EditorClassIdentifier: 
+  ColorBlockDataContainer:
+    Prefab: {fileID: 110102439959643745, guid: 7097a1da41fdb134bbd3de476c608bb5, type: 3}
+    ColorBlockDataList:
+    - BlockType: 1
+      Icon: {fileID: 21300000, guid: 9e1fa0a07096a2f48b9aba8e7873d298, type: 3}
+      Color: 1
+    - BlockType: 1
+      Icon: {fileID: 21300000, guid: 77a930b60758d804a8ca8e9cf133fdfe, type: 3}
+      Color: 2
+    - BlockType: 1
+      Icon: {fileID: 21300000, guid: 754ec0da3ad116045a19866e4377f1c3, type: 3}
+      Color: 3
+    - BlockType: 1
+      Icon: {fileID: 21300000, guid: 14133b703a7cb2c4586bbf7e62c519df, type: 3}
+      Color: 4
+    - BlockType: 1
+      Icon: {fileID: 21300000, guid: 96ef22fc3482fd44abd0ac3952761ccf, type: 3}
+      Color: 5
+    - BlockType: 1
+      Icon: {fileID: 21300000, guid: 37ab88e5a1880e84887e6bc19d5dd09e, type: 3}
+      Color: 6
+  SpecialBlockDataContainer:
+    Prefab: {fileID: 8948142885032712882, guid: 81f06f02a62696b4e9b76f5ea176eb5a, type: 3}
+    SpecialBlockDataList:
+    - BlockType: 2
+      Icon: {fileID: 21300000, guid: 4ae4fe764f735484cb19631600afa5ad, type: 3}
+      SpecialType: 1
+    - BlockType: 2
+      Icon: {fileID: 21300000, guid: 227de5fafa655084895a323e489fe6b8, type: 3}
+      SpecialType: 2
+    - BlockType: 2
+      Icon: {fileID: 21300000, guid: fea82422ae7ef354f855d16073fd0ff4, type: 3}
+      SpecialType: 3
+  ObstacleBlockDataContainer:
+    Prefab: {fileID: -8728091495815976831, guid: 8deaafaedc0cd1947b2f1956bcba22fe, type: 3}
+    ObstacleBlockDataList:
+    - BlockType: 3
+      Icon: {fileID: 21300000, guid: d9b29ff4e08a8a844a2d7fd154dcf29f, type: 3}
+      ObstacleType: 1
+      CountToBreak: 3
+  ChanceToGenerateObstaclePercentile: 5
